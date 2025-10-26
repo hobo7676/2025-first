@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 5</title>
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #lastpara{
+            text-align: center;
+        }
+    </style>
+    <h1>Student Registration Form</h1>
+    <hr>
+    <form action="/actio.php">
+        <p> Full name:<input type="text" placeholder="Enter your full name"></p>
+        <p> email:<input type="email" placeholder="Enter valid email address"></p>
+        <p> password:<input type="password" placeholder="enter password"></p>
+        <p>Gender: 
+            <label for="101"><input type="radio" name="Gender" value="Male" id="101" >Male</label>
+            <label for="102"><input type="radio" name="Gender" value="Female"id="102" >Female</label>
+            <label for="103"><input type="radio" name="Gender" value="Other"id="103" >Other</label>
+        </p>
+        <p>Course:<select name="Courses" >
+            <option value="--select Course--">--select Course--</option>
+            <option value="btech-cse">btech-cse</option>
+            <option value="btech-cse( ai ml)">btech-cse( ai ml)</option>
+            <option value="btech-cse(data science)">btech-cse(data science)</option>
+            <option value="Mechanical enginerring">Mechanical enginerring</option>
+            <option value="Electroni enginerring">Electroni enginerring</option>
+        </select></p>
+        <p>Contact No.: <input type="tel" placeholder="Enter phone number"></p>
+        <p>Address:</p>
+        <textarea name="feedback" rows="5" cols="50" placeholder="Enter your address"></textarea> 
+        <br>
+        <input type="submit" value="Register">
+        <input type="submit" value="Clear">
+    </form>
+    <hr>
+    <p id="lastpara">&copy; 2025 Student Registration Portal</p>
+    <hr>
+    <p>Name: Mehak Gupta</p>
+    <p>Admission No.: 2025B01010003</p>
+</body>
+</html>
