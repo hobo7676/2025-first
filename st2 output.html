@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+
+        h1{
+            color: brown;
+            background-color: antiquewhite;
+            text-decoration: underline;
+        }
+        p{
+            text-decoration: underline;
+        }
+        button{
+            color: blueviolet;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+<h1>Student Registration Form</h1>
+<form action="/action.php">
+<p>Name :<input type="text"></p>
+<p> Admission No. :<input type="number"></input>
+<p> email:<input type="email"></p>
+<p> password:<input type="password"></p>
+<p>Gender: 
+<label for="1"><input type="radio" name="Gender" value="Male" id="1">Male</label>
+<label for="2"><input type="radio" name="Gender" value="Female"id="2">Female</label>
+<label for="3"><input type="radio" name="Gender" value="Other"id="3">Other</label>
+</p>
+<textarea name="feedback" rows="5" cols="50" placeholder="Enter your address"></textarea> 
+<br>
+<button>submit</button>
+</body>
+</html>
